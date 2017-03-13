@@ -69,8 +69,9 @@ int MAX_BALANCE;
 
 void InitConfig(void)
 {
-	benchmarkType=TPCC;
-	TABLENUM=TPCC_TABLENUM;
+    TABLENUM=TPCC_TABLENUM;
+
+    benchmarkType=SMALLBANK;
     //transPerTerminal
     transactionsPerTerminal=20000;
 
